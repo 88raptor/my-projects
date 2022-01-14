@@ -1,0 +1,166 @@
+body{
+	font: 15px/1.5 Ariel,sans-serif,Helvetica;
+	padding: 0;
+	margin: 0;
+    background-color: #f4f4f4;
+
+}
+/*Global*/
+.container{
+	width:90% ;
+	margin: auto;
+	owerflow: hidden;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+.button_1{
+	height: 38px;
+	background: cyan;
+	color: black;
+	font-weight: bold;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+.button_1:hover{
+	color: red;
+	background-color: black;
+}
+.dark{
+	padding: 15px;
+	background: #35424a;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/*header*/
+header{
+	background-color: #35424a;
+	color: white;
+	padding-top: 10px;
+	border-bottom: 3px cyan solid;
+	min-height: 70px;
+}
+header a{
+	color: yellow;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header ul{
+	margin: 0;
+	padding: 0;
+}
+header li{
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+header #branding{
+	float:left;
+}
+header #branding h1{
+	margin: 0;
+}
+header .highlight{
+	color: cyan;
+	font-weight: bold;
+}
+header .current a {
+	color: cyan;
+	font-weight: bold;
+}
+header a:hover {
+ 
+  color: red;
+}
+/** showcase**/
+#showcase{
+	min-height: 400px;
+	background: url(../img/lambo.jpg) no-repeat 0 -300px;
+	background-size: 1400px;
+	text-align: center;
+	color: white;
+}
+#showcase h1{
+	margin-top: 0px;
+	font-size: 55px;
+	margin-bottom: 60px;
+}
+#showcase p{
+	font-size: 20px;
+}
+/**newsletter**/
+#newsletter{
+	padding: 15px;
+	color: white;
+	background-color: #35424a;
+}
+#newsletter input[type="email"]{
+	padding:4px ;
+	height:25px ;
+	width:250px ;
+}
+/**boxes**/
+#boxes{
+	margin-top: 20px;
+}
+#boxes .box{
+float: left;
+width: 30%;
+padding: 10px;
+text-align: center;
+}
+#boxes .box img{
+	width: 90px;
+	height: 90px;
+}
+/**sidebar**/
+aside#sidebar{
+	float: right;
+	width: 30%;
+	text-align: left;
+}
+
+aside#sidebar .qoute input,aside#sidebar .qoute textarea{
+	width:90% ;
+	padding:5px ;
+
+}
+article#main-col{
+	float: left;
+	width: 65%;
+	text-align: left;
+}
+
+footer{
+	text-align: center;
+	padding: 20px;
+	margin: 20px;
+	background-color:0 ;
+	color: black;
+	font-weight: bold;
+	font-family: sans-serif;
+
+}
+/**services**/
+ul#services li{
+	list-style: none ;
+	padding:20px ;
+	border:#cccccc solid 3px ;
+	margin-bottom: 5px;
+	background: cyan;
+	color: black;
+}
+ 
+ /**media Quaries**/
+ @media(max-width: 768px){
+ 	header#branding,
+ 	header nav ul,
+ 	header nav li{
+ 		text-align: center;
+ 		width: 100%;
+ 	}
+ }
